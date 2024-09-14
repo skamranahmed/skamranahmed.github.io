@@ -1,0 +1,71 @@
+title: Kamran's Blog
+paginate: 5
+theme: ["PaperMod"]
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts"]
+
+minify:
+  disableXML: true
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Archive
+          url: archives
+          weight: 5
+        - name: Tags
+          url: tags/
+          weight: 10
+
+params:
+  env: production
+  description: "Syed Kamran Ahmed's Blog"
+  author: Syed Kamran Ahmed
+
+  defaultTheme: dark
+  ShowShareButtons: true
+  ShowReadingTime: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+
+  homeInfoParams:
+    Title: "`Hi there, I am Kamran 👋`"
+    Content: >
+      - `Welcome to my corner of the internet!`
+
+      - `I am a Backend engineer with a knack for DevOps.`
+
+      - `I tell computers to do things; sometimes they obey, sometimes they don't.`
+
+      - `Here, I write about things I learn and build.`
+
+  socialIcons:
+    - name: github
+      title: Github Profile
+      url: "https://github.com/skamranahmed"
+    - name: X
+      title: X/Twitter Profile
+      url: "https://x.com/syedkahmed14"
+    - name: linkedin
+      title: LinkedIn Profile
+      url: "https://www.linkedin.com/in/skamranahmed/"
